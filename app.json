@@ -1,0 +1,14 @@
+{
+  "name": "jiwan",
+  "description": "Line Bot API for jiwan",
+  "repository": "https://github.com/lanco2017/jiwan",
+  "keywords": ["Line", "go", "static"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/kr/heroku-buildpack-go.git"
+    },
+    {
+      "url": "heroku/go"
+    }
+  ]
+}
